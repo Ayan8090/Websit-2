@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+body{
+  background-color: #ffffff !important;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    font-family: 'Jost', sans-serif;
+    color: rgb(118, 117, 117);
+  }
+  .sus-title{
+  
+  }
+
+
+  .Card-Main h6{
+
+  color: #dba285;
+  }
+ .card-img-top{
+  width: 75px;
+ }
+ .card{
+  box-shadow: 7px 4px 60px 10px  rgb(236, 235, 235);
+  border-radius: 15px !important;
+  border: 0;
+  transition: ease-in-out 0.30s;
+ }
+
+ .card:hover{
+  box-shadow: 7px 4px 30px 10px  rgb(228, 227, 227);
+  border-radius: 15px !important;
+  border: 0;
+ }
+
+  .Y-light{
+    background-color: #CE8460; 
+    color: white;
+  }
+ 
+  .page-link{
+    color: black !important;
+    background-color: #f8f7f7 !important;
+    border:none;
+  }
+
+  /* Search input  */
+  
+  .email-input{
+    width: 450px;
+    border: none;
+    outline: none;
+    box-shadow: 7px 4px 60px 10px  rgb(236, 235, 235); 
+  }
+  .email-input:focus{
+    z-index: 10;
+    box-shadow: 7px 4px 60px 10px  rgb(231, 230, 230) !important; 
+  box-shadow: none;
+  
+  -webkit-box-shadow: none;
+  
+  }
+  .banner-btn{
+    box-shadow: 7px 4px 60px 10px  rgb(236, 235, 235) !important; 
+  }
+ 
+  
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .email-input{
+    width: 400px;
+    border: none;
+    
+
+  }
+  .banner-img{
+    display: none;
+  }
+  }
+  @media only screen and (max-width: 600px){
+  /*Big smartphones [426px -> 600px]*/
+    .email-input{
+    width: 250px;
+    border: none;
+    
+  }
+  .banner-img{
+    display: none;
+  }
+  } 
+  @media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+    .email-input{
+    width: 150px;
+    border: none;
+  }
+  .banner-img{
+    display: none;
+  }
+  }
+
+    /* Search input  */
